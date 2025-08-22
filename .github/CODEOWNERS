@@ -1,0 +1,38 @@
+# CODEOWNERS file for monitoring-proxy-651
+# Global owners - will be requested for all PRs
+* @Armor-test/squad-research @Armor-test/unit-test @Armor-test/dept-automation
+
+# Directory ownership
+/src/ @Armor-test/squad-ml @Armor-test/dept-reporting @Armor-test/squad-ux
+/plugins/ @Armor-test/unit-design @Armor-test/squad-api
+/app/ @Armor-test/squad-performance @Armor-test/unit-design @Armor-test/squad-payments
+/services/ @Armor-test/dept-reliability @Armor-test/squad-search @Armor-test/team-logging
+/scripts/ @Armor-test/squad-ml @Armor-test/team-logging @Armor-test/team-core
+/lib/ @Armor-test/squad-mobile @Armor-test/squad-database
+/styles/ @Armor-test/squad-performance @Armor-test/squad-frontend @Armor-test/squad-search
+/extensions/ @Armor-test/unit-governance @Armor-test/squad-apps
+/shared/ @Armor-test/squad-search @Armor-test/squad-frontend @Armor-test/dept-billing
+/assets/ @Armor-test/grp-payments @Armor-test/dept-billing
+/vendor/ @Armor-test/squad-frontend @Armor-test/dept-logging
+/examples/ @Armor-test/squad-mobile @Armor-test/team-core
+
+# File type ownership
+*.json @Armor-test/unit-governance @Armor-test/dept-test @Armor-test/dept-notifications
+*.html @Armor-test/squad-mobile @Armor-test/grp-payments
+*.toml @Armor-test/dept-logging @Armor-test/grp-reporting
+*.py @Armor-test/dept-logging @Armor-test/squad-cache @Armor-test/squad-performance
+*.css @Armor-test/squad-ux @Armor-test/team-security
+*.js @Armor-test/dept-release @Armor-test/squad-tooling @Armor-test/unit-test
+*.ts @Armor-test/dept-test @Armor-test/dept-security @Armor-test/dept-reporting
+*.ini @Armor-test/squad-qa @Armor-test/dept-reliability @Armor-test/squad-product
+*.tsx @Armor-test/grp-storage @Armor-test/squad-mobile @Armor-test/team-governance
+*.config @Armor-test/squad-apps @Armor-test/dept-release @Armor-test/grp-payments
+*.tf @Armor-test/squad-reporting @Armor-test/squad-payments @Armor-test/dept-data
+*.properties @Armor-test/team-notifications @Armor-test/squad-reporting @Armor-test/squad-apps
+*.yml @Armor-test/dept-ui @Armor-test/grp-payments
+*.jsx @Armor-test/dept-release @Armor-test/unit-devops
+
+# Security and special files
+package.json @Armor-test/dependency-team @Armor-test/security
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
+Dockerfile @Armor-test/devops @Armor-test/infra
